@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+div video {
+    margin: 2rem;
+    height: 60vh;
+    width: 30vw;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    color: white;
+    max-height: 60vh;
+}
+
+p {
+    margin: 5px;
+    padding: 0;
+}
+
+.p1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.texto button {
+    margin-top: 20px;
+    background-color: #2c3e50;
+    height: 3rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    border: 1px solid white;
+}
+
+.texto button:hover {
+    cursor: pointer;
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+    height: 3rem;
+    width: 100%;
+}
+
+@media(max-width:768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section video {
+        width: 70vw;
+    }
+
+    .texto {
+        width: 70vw;
+        padding-bottom: 5rem;
+    }
+}

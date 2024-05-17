@@ -1,0 +1,121 @@
+.tituloProductos {
+    text-align: center;
+}
+
+
+.contenedorBotones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedorBotones button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    height: 2rem;
+    border-radius: 0.2rem;
+    width: 7rem;
+    font-weight: bold;
+    margin: 0 0.3rem 0.5rem 0.3rem;
+    flex: 0 0 calc(50% - 1rem)
+}
+
+.contenedorBotones button:hover {
+    background-color: #1abc9c;
+    cursor: pointer;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem 5vw 0 5vw;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 calc(33.3% - 2rem);
+    width: 20rem;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    height: 70vh;
+    background-color: white;
+}
+
+.producto:hover {
+    border: 2px solid #1abc9c;
+}
+
+div img {
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    height: 14rem;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.producto p {
+    font-size: 1rem;
+    margin: 0 5% 0 5%;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+
+    margin: 0 0.5rem 0.2rem 0.5rem;
+}
+
+.precio p {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.precio button {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 196, 43);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.precio button:hover {
+    background-color: #1abc9c;
+}
+
+/*Medias querys*/
+@media(min-width: 768px) {
+    .contenedorBotones {
+        flex-wrap: nowrap;
+    }
+
+    .contenedorBotones button {
+        flex: unset;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

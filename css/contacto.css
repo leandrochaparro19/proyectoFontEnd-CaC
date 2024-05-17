@@ -1,0 +1,115 @@
+@media(min-width: 768px) {
+    .formulario-contacto {
+        display: flex;
+    }
+}
+
+.contenedor {
+    height: 80vh;
+    padding: 0;
+}
+
+.informacion-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgContacto {
+    height: 10rem;
+    width: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
+.informacion-contacto,
+.formulario {
+    flex: 0 0 calc(50% - 5rem);
+}
+
+.informacion-contacto {
+    background-color: black;
+    padding: 2rem;
+}
+
+.informacion-contacto h3,
+.informacion-contacto p,
+.redes-sociales i {
+    color: white;
+}
+
+.informacion-contacto h3 {
+    font-size: 1.5rem;
+}
+
+.informacion-contacto p {
+    font-size: 1.2rem;
+}
+
+.informacion-contacto i {
+    margin-right: 1rem;
+}
+
+.redes-sociales {
+    font-size: 2rem;
+}
+
+.redes-sociales:hover {
+    cursor: pointer;
+}
+
+.formulario {
+    padding: 2rem;
+}
+
+.input-formulario label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.input-formulario input,
+.input-formulario textarea {
+    width: 100%;
+}
+
+.input-formulario input,
+.input-formulario textarea {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-formulario input {
+    height: 2rem;
+}
+
+.input-formulario textarea {
+    height: 7rem;
+    resize: none;
+}
+
+.btn-formulario input {
+    margin-top: 20px;
+    background-color: #2c3e50;
+    height: 2rem;
+    width: 50%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    border: 1px solid white;
+    margin: 0 25% 0 25%;
+}
+
+.input-ofertas {
+    color: rgb(8, 8, 8);
+}
+
+.btn-formulario input:hover {
+    cursor: pointer;
+    color: #1abc9c;
+    border: 2px solid #1abc9c;
+}
