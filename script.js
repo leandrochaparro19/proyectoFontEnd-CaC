@@ -95,10 +95,10 @@ const limpiarHtml = (contenedor) => {
 
 
 function redireccionar(){
-  window.location.href="../productos.html";
+  window.location.href="./productos.html";
 }
 
 function redireccionarContacto(){
-  window.location.href="../contacto.html";
+  window.location.href="./contacto.html";
 
 }
