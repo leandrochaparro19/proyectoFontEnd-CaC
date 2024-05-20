@@ -113,3 +113,8 @@
     color: #1abc9c;
     border: 2px solid #1abc9c;
 }
+
+.error{
+    color: rgb(189, 16, 16);
+    font-size: small;
+}

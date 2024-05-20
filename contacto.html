@@ -49,23 +49,27 @@
             </div>
         </div>
 
-        <form class="formulario">
+        <form class="formulario" action="#" id="formularioContacto" method="GET" novalidate>
             <div class="input-formulario">
                 <label for="nombre">Nombre</label>
                 <input type="text" placeholder="Ingresar nombre" required id="nombre">
             </div>
+            <div class="error" id="error-nombre"></div>
             <div class="input-formulario">
                 <label for="correo">Correo</label>
                 <input type="email" placeholder="ejemplo@hotmail.com" required id="correo">
             </div>
+            <div class="error" id="error-email"></div>
             <div class="input-formulario">
                 <label for="telefono">Teléfono</label>
                 <input type="tel" placeholder="ejemplo: +99 543 789 9411" required id="telefono">
             </div>
+            <div class="error" id="error-telefono"></div>
             <div class="input-formulario">
                 <label for="mensaje">Mensaje</label>
                 <textarea id="mensaje"></textarea>
             </div>
+            <div class="error" id="error-textArea"></div>
             <div class="input-ofertas">
                 <input type="checkbox" id="ofertas">
                 <label for="ofertas">Deseo recibir ofertas y promociones por correo electrónico</label><br><br>
